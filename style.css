@@ -46,6 +46,17 @@ nav ul li a {
   text-shadow: 1px 1px 5px rgba(85, 85, 85, 0.4);
 }
 
+@media (max-width: 576px) {
+  nav ul li a {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  nav ul li a {
+    font-size: 0.7rem;
+  }
+}
+
 nav ul li a.active {
   background: linear-gradient(90deg, #0162c8, rgb(93, 158, 255));
   color: #fff;
