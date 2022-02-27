@@ -119,7 +119,7 @@ main h2 {
   text-transform: uppercase;
 }
 
-.btn-hero:hover {
+.btn-hero:active {
   border: 2px solid #ececec;
   box-shadow: 5px 5px 15px rgba(31, 31, 31, 0.4),
     inset 5px 5px 15px rgba(31, 31, 31, 0.3),
