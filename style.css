@@ -127,11 +127,40 @@ main h2 {
   transition: 0.1s;
 }
 
-hr {
-  margin-bottom: 10px;
+footer {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-top: 60vh; */
+  padding: 40px 0;
+  /* background-color: #fff; */
 }
 
-footer {
+footer .sosmed {
   text-align: center;
-  margin-top: 490px;
+  padding-bottom: 10px;
+  color: #4b4c4d;
+}
+
+footer .sosmed a {
+  font-size: 22px;
+  color: inherit;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  opacity: 0.8;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+footer .sosmed a:hover {
+  opacity: 1;
+}
+
+footer p {
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
 }
